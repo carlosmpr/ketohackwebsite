@@ -10,6 +10,11 @@ import Banner from './Banner'
 import Products from './Products'
 import BannerImage from './BannerImage'
 import Section from './Section'
+import Gallery from './Gallery'
+import Testimonials from './Testimonials'
+import Specials from './Specials'
+import Footer from './Footer'
+import Copywright from './Copywright'
 export default function Content() {
     return (
         <div className='w-full h-full overflow-scroll'>
@@ -25,6 +30,13 @@ export default function Content() {
             <Products />
             <BannerImage />
             <Section />
+            <Gallery />
+            <Banner />
+            <CenterText />
+            <Testimonials />
+            <Specials />
+            <Footer />
+            <Copywright />
 
         </div>
     )
